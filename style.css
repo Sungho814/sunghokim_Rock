@@ -46,3 +46,9 @@ h1 {
   font-size: 24px;
   margin-top: 18px;
 }
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
