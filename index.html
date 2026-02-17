@@ -3,37 +3,167 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Untitled</title>
+    <title>RTM v01</title>
     <link rel="stylesheet" href="./style.css">
 
   </head>
     
   <body>
-  <div class="game-container">
-  <h1>Rock – Paper – Scissors – Lizard – Spock</h1>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hyundai Software | Patient Management Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <div class="choices">
-    <button data-choice="ROCK">🪨 ROCK</button>
-    <button data-choice="PAPER">📄 PAPER</button>
-    <button data-choice="SCISSORS">✂️ SCISSORS</button>
-    <button data-choice="LIZARD">🦎 LIZARD</button>
-    <button data-choice="SPOCK">🖖 SPOCK</button>
-  </div>
+  <!-- NAVIGATION -->
+  <header class="nav-section">
+    <div class="container nav-container">
+      <div class="logo">HyundaiSoftware</div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#sensor">Sensor Intelligence</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="btn nav-btn">Request Demo</a>
+    </div>
+  </header>
 
-  <div class="result-box">
-    <p id="cpu">CPU is waiting...</p>
-    <p id="player">Player hasn't chosen yet</p>
-    <h2 id="final-result">Ready?</h2>
+  <!-- HERO -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <h1>Next‑Gen Patient Management with Radar Sensor Intelligence</h1>
+      <p>Streamline Pain Medicine & Physical Therapy workflows — real‑time monitoring, data insights, and CPT code automation (97110, 97112, 97530).</p>
+      <a href="#contact" class="btn hero-btn">Schedule a Demo</a>
+    </div>
+  </section>
 
-    <hr />
+  <!-- FEATURES -->
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2 class="section-title">Key Features</h2>
+      <div class="features-grid">
 
-    <h3>📊 Game Stats</h3>
-    <p id="wins">Wins: 0</p>
-    <p id="losses">Losses: 0</p>
-    <p id="draws">Draws: 0</p>
-    <p id="winrate">Win Rate: 0%</p>
-  </div>
-</div>
+        <div class="feature-card">
+          <h3>Radar Sensor Monitoring</h3>
+          <p>Non‑contact tracking of patient movement, balance, posture, and physical therapy engagement.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>CPT Code Integration</h3>
+          <p>Built‑in support for documented CPT codes like 97110, 97112, 97530 for insurance and compliance.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Progress Analytics</h3>
+          <p>Visual dashboards provide clear therapy adherence metrics and trend reports for clinicians.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Secure Cloud Storage</h3>
+          <p>HIPAA‑compliant data storage with role‑based access and full audit trails.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3>Reminders & Alerts</h3>
+          <p>Automated session alerts, abnormal movement detection, and patient notifications to stay on track.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SENSOR INTELLIGENCE -->
+  <section id="sensor" class="sensor-section">
+    <h2>Sensor Intelligence</h2>
+    <p>Streamline Pain Medicine & Physical Therapy workflows — real‑time monitoring, data insights, and CPT code automation (97110, 97112, 97530).</p>
+  </section>
+
+  <!-- BENEFITS -->
+  <section id="benefits" class="benefits-section">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="benefits-grid">
+
+        <div class="benefit-card">
+          <h3>Improve Outcomes</h3>
+          <p>Actionable insights optimize therapy plans and speed recovery progression.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>Save Time</h3>
+          <p>Automated documentation and billing reduces admin burden.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>Increase Compliance</h3>
+          <p>Real‑time reminders keep patients engaged and aligned with their therapy.</p>
+        </div>
+
+        <div class="benefit-card">
+          <h3>Remote Management</h3>
+          <p>Monitor patients outside clinical settings for uninterrupted care.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <h2 class="section-title">What Clinicians Say</h2>
+      <div class="testimonials-slider">
+
+        <div class="testimonial-card">
+          <p>"This platform transformed our practice — the automated CPT integration saves hours each week!"</p>
+          <span>— Dr. Emily Park, PT Specialist</span>
+        </div>
+
+        <div class="testimonial-card">
+          <p>"Real‑time patient monitoring helps us adjust therapy plans live instead of waiting weeks."</p>
+          <span>— Jason Lee, Physical Therapist</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="How can we help?" rows="5" required></textarea>
+        <button type="submit" class="btn contact-btn">Request Demo</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-section">
+    <div class="container">
+      <p>© 2026 Hyundai Software — All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
     <script  src="./script.js"></script>
 
   </body>
